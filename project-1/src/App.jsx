@@ -1,17 +1,15 @@
 import React from 'react'
-import StateExample from './components/StateExample'
-import Card from './components/Card'
-// import ProductManagement from './components/ProductManagement'
+import Products from './components/Products'
+import { Routes,Route } from 'react-router-dom'
+import ProductDescription from './components/ProductDescription'
 
 const App = () => {
   return (
     <>
-      {/* <ProductManagement/> */}
-
-      <StateExample/>
-
-      {/* <Card name="HP Laptop" price={47500} /> */}
-      {/* <Card name="Dell Laptop" price={67500} /> */}
+      <Routes>
+        <Route path='/' element={<Products/>}/>
+        <Route path='/product-details/:id' element={<ProductDescription/>}/>
+      </Routes>
     </>
   )
 }
