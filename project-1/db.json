@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Jayanti Thakor",
+      "email": "jyantithakor941@gmail.com",
+      "password": "123@pipl",
+      "id": "Mx_yRe7h8bc"
+    },
+    {
+      "name": "Krish Tapodhan",
+      "email": "krish22@gmail.com",
+      "password": "123@123",
+      "id": "pEJyp2SKl3g"
+    },
+    {
+      "name": "Alpesh Thakor",
+      "email": "alpesh3434@gmail.com",
+      "password": "guru222",
+      "id": "BX-IdyFsVAY"
+    },
+    {
+      "name": "Atul",
+      "email": "atul222@gmail.com",
+      "password": "123@pipl",
+      "id": "nj1cy8Mc67g"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

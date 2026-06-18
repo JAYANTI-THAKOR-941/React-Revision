@@ -1,14 +1,13 @@
 import React from 'react'
-import Products from './components/Products'
 import { Routes,Route } from 'react-router-dom'
-import ProductDescription from './components/ProductDescription'
+import UserManagement from './components/UserManagement'
+
 
 const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Products/>}/>
-        <Route path='/product-details/:id' element={<ProductDescription/>}/>
+        <Route path='/' element={<UserManagement/>}/>
       </Routes>
     </>
   )
