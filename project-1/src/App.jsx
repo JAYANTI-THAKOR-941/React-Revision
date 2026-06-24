@@ -1,13 +1,13 @@
 import React from 'react'
 import { Routes,Route } from 'react-router-dom'
-import AdminDashboard from './admin/AdminDashboard'
+import ProductData from './components/ProductData'
 
 
 const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<AdminDashboard/>}/>
+        <Route path='/' element={<ProductData/>}/>
       </Routes>
     </>
   )
